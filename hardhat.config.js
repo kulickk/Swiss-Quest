@@ -1,8 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
+require('@openzeppelin/hardhat-upgrades');
 require("dotenv").config();
 
 module.exports = {
-  defaultNetwork: "swisstronik",
   solidity: "0.8.20",
   networks: {
     swisstronik: {
